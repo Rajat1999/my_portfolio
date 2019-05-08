@@ -1,5 +1,6 @@
 .site-header {
-    background-color: #1bbc9b;
+    /* background: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif");
+    background-repeat: no-repeat ; */
     color: #ecfdf9;
     height: 100vh;
     font-family: monospace;
@@ -18,7 +19,7 @@
     height: 200px;
     width: 200px;
     align-self: center;
-    box-shadow: #0a8269 2px 5px 5px;
+    box-shadow: #0000009a 2px 5px 5px;
 }
 
 .course-link {
@@ -27,4 +28,15 @@
 
 body {
     margin: 0;
+    /* background: url("https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+    /* background: url("https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+        background: url("https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80") no-repeat center center fixed;
+        background: url("https://images.pexels.com/photos/733475/pexels-photo-733475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed;
+        */
+    background: url("https://images.unsplash.com/photo-1498026474556-93048b8493d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat center center fixed;
+    
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    background-size: cover ;
 }
