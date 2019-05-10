@@ -40,3 +40,34 @@ body {
     -o-background-size: cover ;
     background-size: cover ;
 }
+
+.jumbotron {
+    background: #41295a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(85, 7, 124), #d83f87);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(85, 7, 124), #d83f87);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 20px 20px #0000009a ;
+    opacity: 0.6 ;
+    text-align: center ;
+    margin-top: 10%;
+}
+
+.link {
+    display: inline-block ;
+    width: 90px ;
+    height: 90px ;
+    background: #f1f1f1 ;
+    border-radius: 30% ;
+    box-shadow: 0 5px 15px -5px #00000070 ;
+    color: #3498db ;
+    overflow: hidden ;
+    position: relative ;
+}
+
+.link i {
+    line-height: 90px ;
+    font-size: 26px ;
+}
