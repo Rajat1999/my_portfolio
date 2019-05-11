@@ -55,6 +55,8 @@ body {
     margin-top: 10%;
 }
 
+/* Link styling starts here */
+
 .link {
     display: inline-block ;
     width: 90px ;
@@ -70,4 +72,43 @@ body {
 .link i {
     line-height: 90px ;
     font-size: 26px ;
+    transition: 0.2s linear ; 
 }
+
+.link:hover i {
+    transform: scale(1.4) ;
+    color: #f1f1f1 ;
+}
+
+.link::before {
+    content: "" ;
+    position: absolute ;
+    width: 120% ;
+    height: 120% ;
+    background: #3498db ;
+    transform: rotate(45deg);
+    left: -110% ;
+    top: 90% ; 
+}
+
+.link:hover::before {
+    animation: aaa 0.7s 1 ;
+    top: -10% ;
+    left: -10% ;
+}
+
+@keyframes aaa {
+    0% {
+        left: -110% ;
+        top: 90% ;
+    }
+    50% {
+        left: 10% ;
+        top: -30% ;
+    }
+    100% {
+        left: -10% ;
+        top: -10% ;
+    }
+}
+/* Link styling ends here */
