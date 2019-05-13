@@ -1,4 +1,4 @@
-# This is my personal portfolio.
+# This is my personal Portfolio.
 ## ==> [My portfolio site :)](https://rajat-portfolio.netlify.com/)
 
 <<<<<<< HEAD
