@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1920_2);
+      }
+
+      .cls-2, .cls-3 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: rgba(255,255,255,0.9);
+      }
+
+      .cls-5 {
+        fill: rgba(255,241,220,0.9);
+      }
+
+      .cls-6 {
+        fill: #707070;
+        font-size: 33px;
+        font-family: SegoeUI-SemilightItalic, Segoe UI;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      .cls-10, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .cls-7 {
+        stroke: rgba(127,255,221,0.6);
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        stroke-width: 20px;
+      }
+
+      .cls-8 {
+        stroke: rgba(126,183,255,0.62);
+      }
+
+      .cls-9 {
+        stroke: rgba(126,183,255,0.6);
+      }
+
+      .cls-10 {
+        stroke: rgba(112,112,112,0.5);
+        stroke-width: 4px;
+      }
+
+      .cls-11 {
+        fill: #fff;
+      }
+
+      .cls-12 {
+        filter: url(#Line_1);
+      }
+
+      .cls-13 {
+        filter: url(#Line_3);
+      }
+
+      .cls-14 {
+        filter: url(#Line_4);
+      }
+
+      .cls-15 {
+        filter: url(#Line_2);
+      }
+
+      .cls-16 {
+        filter: url(#Rectangle_1);
+      }
+
+      .cls-17 {
+        filter: url(#Subtraction_1);
+      }
+
+      .cls-18 {
+        filter: url(#greenTri);
+      }
+
+      .cls-19 {
+        filter: url(#blueTri);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.828" y1="0.334" x2="0.017" y2="0.992" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2083ff"/>
+      <stop offset="1" stop-color="#2b00ff"/>
+    </linearGradient>
+    <filter id="blueTri" x="468.13" y="-376.331" width="1913.836" height="1959.389" filterUnits="userSpaceOnUse">
+      <feOffset dy="50" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.852" y1="0.362" x2="0.193" y2="0.871" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0fb"/>
+      <stop offset="1" stop-color="#3fd926"/>
+    </linearGradient>
+    <filter id="greenTri" x="-287.947" y="-211.554" width="1215.167" height="1166.358" filterUnits="userSpaceOnUse">
+      <feOffset dy="50" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-2"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_1" x="690.73" y="177.5" width="1101.541" height="797.001" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-3"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1" x="837" y="286" width="800" height="574" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-4"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_2" x="875.5" y="834" width="447" height="170" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-5"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_4" x="1156.5" y="145.875" width="447" height="170" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-6"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_3" x="1179.5" y="111.875" width="303" height="170" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-7"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_1" x="1001" y="867" width="283" height="170" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-8"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_2">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_2" data-name="Web 1920 – 2" class="cls-1">
+    <rect class="cls-11" width="1920" height="1080"/>
+    <g class="cls-19" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="blueTri-2" data-name="blueTri" class="cls-2" d="M389.455,1.321,809.839,996.147-509.709,1406.854Z" transform="matrix(0.92, 0.39, -0.39, 0.92, 1562.02, -153.39)"/>
+    </g>
+    <g class="cls-18" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="greenTri-2" data-name="greenTri" class="cls-3" d="M608.455,0,839.792,545,0,747.661Z" transform="matrix(-0.92, -0.39, 0.39, -0.92, 560.09, 829.8)"/>
+    </g>
+    <g id="content" transform="translate(145 -6)">
+      <g class="cls-17" transform="matrix(1, 0, 0, 1, -145, 6)">
+        <path id="Subtraction_1-2" data-name="Subtraction 1" class="cls-4" d="M951.54,647H0V0H951.54V647ZM20.145,14.22V632.78H931.4V14.22H20.145Z" transform="translate(765.73 232.5)"/>
+      </g>
+      <g class="cls-16" transform="matrix(1, 0, 0, 1, -145, 6)">
+        <rect id="Rectangle_1-2" data-name="Rectangle 1" class="cls-5" width="650" height="424" rx="62" transform="translate(912 341)"/>
+      </g>
+      <text id="Hi_I_am_Rajat_I_am_19_years_old_living_in_New_Delhi_India_I_am_learning_full_stack_web_development._Watch_this_space_for_my_upcoming_projects." data-name="Hi, I am Rajat, 
+I am 19 years old, living in New Delhi, India
+I am learning full stack web development. 
+Watch this space for my upcoming projects." class="cls-6" transform="translate(1092 431)"><tspan x="-103.077" y="0">Hi, I am Rajat, </tspan><tspan x="-299.498" y="75">I am 19 years old, living in New Delhi, India</tspan><tspan x="-292.577" y="150">I am learning full stack web development. </tspan><tspan x="-301.375" y="225">Watch this space for my upcoming projects.</tspan></text>
+      <g class="cls-15" transform="matrix(1, 0, 0, 1, -145, 6)">
+        <line id="Line_2-2" data-name="Line 2" class="cls-7" x2="277" transform="translate(960.5 899)"/>
+      </g>
+      <g class="cls-14" transform="matrix(1, 0, 0, 1, -145, 6)">
+        <line id="Line_4-2" data-name="Line 4" class="cls-8" x1="277" transform="translate(1241.5 210.88)"/>
+      </g>
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, -145, 6)">
+        <line id="Line_3-2" data-name="Line 3" class="cls-9" x2="133" transform="translate(1264.5 176.88)"/>
+      </g>
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, -145, 6)">
+        <line id="Line_1-2" data-name="Line 1" class="cls-7" x1="113" transform="translate(1086 932)"/>
+      </g>
+    </g>
+    <line id="Line_5" data-name="Line 5" class="cls-10" x2="247" transform="translate(1118.5 700.5)"/>
+  </g>
+</svg>

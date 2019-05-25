@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1215.167" height="1166.358" viewBox="0 0 1215.167 1166.358">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        filter: url(#greenTri);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.852" y1="0.362" x2="0.193" y2="0.871" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0fb"/>
+      <stop offset="1" stop-color="#3fd926"/>
+    </linearGradient>
+    <filter id="greenTri" x="0" y="0" width="1215.167" height="1166.358" filterUnits="userSpaceOnUse">
+      <feOffset dy="50" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="greenTri-2" data-name="greenTri" class="cls-1" d="M608.455,0,839.792,545,0,747.661Z" transform="matrix(-0.92, -0.39, 0.39, -0.92, 848.03, 1041.36)"/>
+  </g>
+</svg>

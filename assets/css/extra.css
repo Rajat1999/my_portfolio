@@ -1,0 +1,195 @@
+.site-header {
+    /* background: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif");
+    background-repeat: no-repeat ; */
+    color: #ecfdf9;
+    height: 120vh;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-header-content {
+    margin: 10px;
+}
+
+.box {
+    position: relative;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background: #642B73;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C6426E, #642B73);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: #0000009a 2px 5px 5px;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    font-family: consolas;
+    text-align: center;
+}
+
+.content a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 30px;
+    box-shadow: #0000009a 2px 5px 5px;
+}
+
+.content a:hover {
+    color: #fff;
+    background: #41295a;
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+.box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 1s;
+    -webkit-clip-path: circle(71.8% at 50% 51%);
+    clip-path: circle(71.8% at 50% 51%);
+}
+
+.box:hover img {
+    -webkit-clip-path: circle(0.0% at 50% 0);
+    clip-path: circle(0.0% at 50% 0);
+}
+
+/* .profile-pic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    box-shadow: #0000009a 2px 5px 5px;
+} */
+
+.course-link {
+    color: #ecfdf9;
+}
+
+body {
+    margin: 0;
+    /* background: url("https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+    /* background: url("https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+        background: url("https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80") no-repeat center center fixed;
+        background: url("https://images.pexels.com/photos/733475/pexels-photo-733475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed;
+        */
+    background: url("https://images.unsplash.com/photo-1498026474556-93048b8493d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron {
+    margin-top: 30px;
+    box-shadow: 0 20px 20px #0000009a;
+    opacity: 0.6;
+    text-align: center;
+    background: #41295a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(85, 7, 124), #d83f87);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(85, 7, 124), #d83f87);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron:hover .site-header-content {
+    opacity: 100%;
+
+}
+
+.footer {
+    box-shadow: 0 20px 20px #0000009a;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Link styling starts here */
+
+.link {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #82589F;
+    overflow: hidden;
+    position: relative;
+}
+
+.link i {
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+
+.link:hover i {
+    transform: scale(1.4);
+    color: #f1f1f1;
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #FC427B;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.link:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa {
+    0% {
+        left: -110%;
+        top: 90%;
+    }
+
+    50% {
+        left: 10%;
+        top: -30%;
+    }
+
+    100% {
+        left: -10%;
+        top: -10%;
+    }
+}
+
+/* Link styling ends here */
+
+.col-sm {}
