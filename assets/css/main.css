@@ -23,6 +23,7 @@ a {
     top: 16.3%;
     width: 421px;
     height: 421px;
+    box-shadow: #0000009a 10px 10px 20px;
     background: #FF4E50;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgba(249, 213, 35, 0.801), rgba(255, 78, 81, 0.801));
@@ -67,6 +68,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
+    margin: 0;
     width: 421px;
     height: 421px;
     border-radius: 50%;
