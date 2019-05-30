@@ -1,4 +1,4 @@
-<a href="#" style="text-decoration:none"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/gcdc_nd.svg?style=social"></a>
+<a href="#" style="text-decoration:none">Unresponsive</a>
 
 # This is my Personal Portfolio.
 ## ==> [My portfolio site :)](https://rajat-portfolio.netlify.com/)
