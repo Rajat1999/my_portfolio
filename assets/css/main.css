@@ -1,23 +1,26 @@
 body, html {
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 
-body {
-    background: url('/assets/images/Web\ 1920\ –\ 2.svg') no-repeat;
-    background-size: cover;
-    width: 100%;
+.green {
     margin: 0;
+    position: fixed;
+    left: -20%;
+    top: -23%;
 }
 
-a {
-    color: #fff;
-    text-decoration: none;
+.blue {
+    margin: 0;
+    position: fixed;
+    left: 30%;
+    top: -54%;
 }
 
 
 .box {
-    position: relative;
+    position: fixed;
     border-radius: 50%;
     left: 5.6%;
     top: 16.3%;
@@ -89,3 +92,74 @@ a {
     margin: 0;
 }
 
+.data {
+    position: fixed;
+    left: 35%;
+    top: 20%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1280px) {
+    .data {
+        transform: scale(0.8);
+    }
+    .green {
+        transform: scale(0.8);
+        left: -30%;
+    }
+    .blue {
+        transform: scale(0.8);
+        left: 20%;
+    }
+    .box {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .data {
+        transform: scale(0.7);
+        left: 30%;
+    }
+    .box {
+        transform: scale(0.7);
+        top: 50px;
+        left: -20px;
+    }
+     .green {
+         transform: scale(0.8);
+         left: -30%;
+         transform: rotate(10deg);
+     }
+
+     .blue {
+         transform: scale(0.7);
+         left: 20%;
+         transform: rotate(10deg);
+     }
+}
+
+@media screen and (max-width: 1030px) {
+    .data {
+        transform: scale(0.6);
+        left: 30%;
+    }
+
+    .box {
+        transform: scale(0.6);
+        top: 50px;
+        left: -20px;
+    }
+
+    .green {
+        transform: scale(0.6);
+        left: -30%;
+        transform: rotate(20deg);
+    }
+
+    .blue {
+        transform: scale(0.8);
+        left: 20%;
+        transform: rotate(20deg);
+    }
+}
