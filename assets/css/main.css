@@ -143,6 +143,7 @@ body, html {
     .data {
         transform: scale(0.6);
         left: 30%;
+        top: 30%;
     }
 
     .box {
@@ -158,8 +159,36 @@ body, html {
     }
 
     .blue {
-        transform: scale(0.8);
+        transform: scale(0.6);
         left: 20%;
+        top: -45%;
         transform: rotate(20deg);
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .data {
+        transform: scale(0.6);
+        left: 20%;
+        top: 40%;
+    }
+
+    .box {
+        transform: scale(0.6);
+        top: 40px;
+        left: 20%;
+    }
+
+    .green {
+        transform: scale(0.2);
+        left: -50%;
+        transform: rotate(30deg);
+    }
+
+    .blue {
+        transform: scale(0.2);
+        left: 30%;
+        top: -45%;
+        transform: rotate(30deg);
     }
 }
