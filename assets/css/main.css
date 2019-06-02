@@ -219,3 +219,30 @@ body, html {
         transform: rotate(50deg);
     }
 }
+
+@media screen and (max-width: 680px) {
+    .data {
+        transform: scale(0.6);
+        left: -15%;
+        top: 40%;
+    }
+
+    .box {
+        transform: scale(0.6);
+        top: 30px;
+        left: 20%;
+    }
+
+    .green {
+        transform: scale(0.2);
+        left: -70%;
+        transform: rotate(50deg);
+    }
+
+    .blue {
+        transform: scale(0.2);
+        left: 30%;
+        top: -35%;
+        transform: rotate(50deg);
+    }
+}
