@@ -119,8 +119,7 @@ body, html {
 }
 
 @media only screen and (min-width: 375px) and (max-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
-    .box,
-    .box img {
+    .box, .box img {
         width: 210.5px;
         height: 210.5px;
         margin: 10% auto;
