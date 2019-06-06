@@ -99,6 +99,25 @@ body, html {
     z-index: 1;
 }
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    .box, .box img {
+        width: 210.5px;
+        height: 210.5px;
+        margin: 10% auto; 
+    }
+    .box img {
+        margin: 0;
+        padding: 0;
+    }
+    .content h3 {
+        font-size: 16px;
+    }
+    .content a {
+        padding: 5px 10px;
+    }
+}
+
 @media screen and (max-width: 1280px) {
     .data {
         transform: scale(0.8);
