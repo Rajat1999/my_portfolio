@@ -1,160 +1,31 @@
 body, html {
     height: 100%;
+    width: 100%;
+    background: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
     margin: 0;
     padding: 0;
+    background-image: url("../images/web-bg-3.png");
 }
 
-.green {
-    margin: 0;
-    position: fixed;
-    left: -20%;
-    top: -23%;
-}
-
-.blue {
-    margin: 0;
-    position: fixed;
-    left: 30%;
-    top: -54%;
-}
-
-
-.box {
-    position: fixed;
-    border-radius: 50%;
-    left: 5.6%;
-    top: 16.3%;
-    width: 421px;
-    height: 421px;
-    box-shadow: #0000009a 10px 10px 20px;
-    background: #FF4E50;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(249, 213, 35, 0.801), rgba(255, 78, 81, 0.801));
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(249, 213, 35, 0.801), rgba(255, 78, 81, 0.801));
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.content {
-    position: absolute;
-    left: 5.6%;
-    top: 16.3%;
-    right: 0;
-    bottom: 0;
-    display: grid;
-    align-items: center;
-    color: #fff;
-    font-family: monospace;
+.container {
     text-align: center;
 }
 
-.content a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: 1px solid #fff;
-    text-decoration: none;
-    color: #fff;
-    transition: 0.5s;
-    border-radius: 30px;
-    box-shadow: #0000009a 2px 5px 5px;
-}
-
-.content a:hover {
-    color: #fff;
-    background: #41295a;
-    text-decoration: none;
-    transform: scale(1.2);
-}
-
-.box img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    width: 421px;
-    height: 421px;
+.img-container {
     border-radius: 50%;
-    object-fit: cover;
-    transition: 1s;
-    -webkit-clip-path: circle(71.8% at 50% 51%);
-    clip-path: circle(71.8% at 50% 51%);
-}
-
-.box:hover img {
-    -webkit-clip-path: circle(0.0% at 50% 0);
-    clip-path: circle(0.0% at 50% 0);
+    position: relative;
+    margin: 10% auto;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to bottom, #ee5a24, #ffc312);
 }
 
 .profile-pic {
-    width: 421px;
-    height: 421px;
-    margin: 0;
+    border-radius: 50%;
+    padding: 5px;
+    height: 100%;
 }
-
-.data {
-    position: fixed;
-    left: 35%;
-    top: 20%;
-    z-index: 1;
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-    .green {
-        position: fixed;
-        width: 110%;
-        height: 25%;
-        left: 3%;
-        top: 40%;
-        transform: scale(2.2);
-    }
-    .blue {
-        position: fixed;
-        width: 110%;
-        height: 25%;
-    }
-    .box, .box img {
-        top: 10%;
-        left: 16%;
-        width: 150px;
-        height: 150px;
-        margin-top: 15%; 
-        margin-left: 7%;
-        padding: 0;
-    }
-    .box img {
-        top: 10%;
-        left: 15%;
-        margin: -10% 0 0 -15%;
-        padding: 0;
-    }
-    .content h3 {
-        font-size: 12px;
-    }
-    .content a {
-        padding: 2px 2px;
-        margin: 0;
-    }
-    .data {
-        transform: scale(0.5);
-    }
-}
-
-
-/* @media screen and (max-width: 1280px) {
-    .data {
-        transform: scale(0.8);
-    }
-    .green {
-        transform: scale(0.8);
-        left: -30%;
-    }
-    .blue {
-        transform: scale(0.8);
-        left: 20%;
-    }
-    .box {
-        transform: scale(0.8);
-    }
-} */
