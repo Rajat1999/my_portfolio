@@ -11,7 +11,7 @@ body, html {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 420px) {
     body {
        background-image: url("../images/mob-bg.png");
     }
