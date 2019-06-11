@@ -10,6 +10,13 @@ body, html {
     background-image: url("../images/web-bg-3.png");
 }
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    body {
+       background-image: url("../images/mob-bg.png");
+    }
+}
+
 .container {
     text-align: center;
 }
