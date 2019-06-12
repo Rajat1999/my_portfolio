@@ -42,3 +42,42 @@ body, html {
     transform: rotate(360deg);
     transition: 1.5s;
 }
+
+#box2 {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+#box2 ul li {
+    list-style-type: none; 
+    text-align: center;
+    display: inline-block;
+    padding-right: 40px;
+    float: none;
+}
+
+.link-container {
+    box-shadow: #0000009a 0px 20px 30px;
+    position: relative;
+    text-align: center;
+    background: #8c7ae6;
+    border-radius: 40px;
+    opacity: 0.8;
+    width: 150px;
+    height: 50px;
+}
+
+#box2 ul li .link-container a {
+    color:#f5f6fa;
+    padding-top: 20px;
+    text-shadow: #0000009a 2px 2px 5px;
+}
+
+.link-container:hover {
+    transform: scale(1.5);
+    transition: 0.8s;
+    background: #e056fd;
+    opacity: 1;
+}
+
