@@ -17,6 +17,7 @@ body, html {
     }
     #box2 {
         padding-top: 5%;
+        margin-bottom: 2%;
     }
     #box2 ul li button {
         margin-bottom: 20%;
@@ -84,6 +85,11 @@ body, html {
     transition: 0.8s;
     background: #e056fd;
     opacity: 1;
+}
+
+.fa-long-arrow-alt-right:hover {
+    transform: rotate(-360deg);
+    transition: 0.8s;
 }
 
 #box2 ul li .sm-menu {
