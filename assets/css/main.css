@@ -15,6 +15,12 @@ body, html {
     body {
        background-image: url("../images/mob-bg.png");
     }
+    #box2 {
+        padding-top: 15%;
+    }
+    #box2 ul li button {
+        margin-bottom: 20%;
+    }
 }
 
 .container {
@@ -57,59 +63,54 @@ body, html {
     float: none;
 }
 
-.link-container {
+#box2 ul li button {
     box-shadow: #0000009a 0px 20px 30px;
+    text-decoration: none;
+    text-shadow: #0000009a 2px 2px 5px;
     position: relative;
     display: inline-block;
+    border-radius: 50px;
     text-align: center;
     background: #8c7ae6;
-    border-radius: 40px;
+    color:#f5f6fa;
+    border: none;
     opacity: 0.8;
     width: 150px;
     height: 50px;
 }
 
-.link-container .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #2C3A47;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.link-container .dropdown-content a {
-    padding: 10px 8px;
-    text-decoration: none;
-    border-radius: 40px;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    
-    background-color: #ddd;
-}
-
-.dropdown-content a:hover i {
-    transition: 0.8s;
-    transform: scale(1.5) rotate(360deg);
-}
-
-.link-container:hover .dropdown-content {
-    display: block;
-}
-
-#box2 ul li .link-container a {
-    color:#f5f6fa;
-    padding-top: 20px;
-    text-shadow: #0000009a 2px 2px 5px;
-}
-
-.link-container:hover {
+#box2 ul li button:hover {
     transform: scale(1.5);
     transition: 0.8s;
     background: #e056fd;
-
     opacity: 1;
 }
 
+#box2 ul li .sm-menu {
+    position: absolute;
+    border-radius: 8px;
+    background: #487eb0;
+    display: none;
+}
+
+#box2 ul li .sm-menu i {
+    color: #f5f6fa;
+    padding: 20px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+#box2 ul li .sm-menu:hover::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #487eb0;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+#box2 ul li .sm-menu:hover::after {
+    display: block;
+}
