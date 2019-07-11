@@ -19,7 +19,7 @@ body {
 }
 
 .about {
-    margin: 15% auto;
+    margin: 10% auto;
     padding-bottom: 30%;
     background: #ffc312;
     border-radius: 8px;
@@ -30,4 +30,9 @@ body {
     position: absolute;
     webkit-clip-path: polygon(50% 50%, 100% 20%, 100% 0, 0 0, 0 20%);
     clip-path: polygon(50% 50%, 100% 20%, 100% 0, 0 0, 0 20%);
+}
+
+#box2 img {
+    margin-top: 6%;
+    width: 50%;
 }
