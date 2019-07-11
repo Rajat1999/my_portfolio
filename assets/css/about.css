@@ -33,6 +33,6 @@ body {
 }
 
 #box2 img {
-    margin-top: 6%;
+    margin-top: 6% auto;
     width: 50%;
 }
