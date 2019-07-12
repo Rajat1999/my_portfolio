@@ -10,7 +10,12 @@ body {
     text-align: center;
 }
 
-#box1 {
+#box1 img {
+    margin-top: 5%;
+    width: 800px;
+}
+
+#box2 {
     width: 60%;
     height: 100%;
     object-position: center;
@@ -18,21 +23,27 @@ body {
     text-align: center;
 }
 
-.about {
-    margin: 10% auto;
-    padding-bottom: 30%;
-    background: #ffc312;
-    border-radius: 8px;
-
-}
-
 .bg {
     position: absolute;
-    webkit-clip-path: polygon(50% 50%, 100% 20%, 100% 0, 0 0, 0 20%);
-    clip-path: polygon(50% 50%, 100% 20%, 100% 0, 0 0, 0 20%);
+    opacity: 0.3;
+    height: 40%;
+    width: 55%;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    
 }
 
-#box2 img {
-    margin-top: 5%;
-    width: 50%;
+#box2 .about {
+    margin: 10% auto;
+    padding: 50px;
+    /* background: #ffc312; */
+    border-radius: 8px;
+    background: url('../images/blooming-tree-blurred-background-bright-1590549.jpg');
+    background-size: cover;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
+
+
+
+
