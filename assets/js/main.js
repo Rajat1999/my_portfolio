@@ -1,3 +1,1 @@
-// $('.show-btn').click(function(){
-//     $('.show-btn').fadeToggle('fast');
-// });
+alert('This site is under construction! :)');
