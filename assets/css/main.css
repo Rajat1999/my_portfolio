@@ -194,7 +194,7 @@ nav .nav-link:hover {
 
 .aboutMe .heading {
     position: relative;
-    background: url("../images/AboutBg.svg");
+    background: url("../svgs/AboutBg.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -220,7 +220,7 @@ nav .nav-link:hover {
 }
 
 .aboutMe .content {
-    background: url("../images/section-1.svg");
+    background: url("../svgs/section-1.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
