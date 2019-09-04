@@ -203,7 +203,7 @@ nav .nav-link:hover {
 
 .aboutMe .heading h1 {
     padding-top: 36%;
-    font-weight: 100;
+    /* font-weight: 100; */
     font-size: 5rem;
     text-shadow: #0000009a 10px 5px 10px;
 }
@@ -214,21 +214,37 @@ nav .nav-link:hover {
     margin: auto;
     padding: 0;
     width: 500px;
-    height: 20px;
+    height: 30px;
+    border-radius: 10px;
     background: linear-gradient(90deg, #8A2BE2 10%, #B181DD 90%);
 
 }
 
 .aboutMe .content {
+    position: relative;
     background: url("../svgs/section-1.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    margin: 0;
-    padding: 0;
 }
+
+.aboutMe .content .bio {
+    position: absolute;
+    padding-top: 40px;
+    justify-content: left;
+    text-align: right;
+    width: 50%;
+    height: 100vh;
+    font-size: 1.5rem;
+    line-height: 3.2rem;
+    margin-left: 45%;
+}
+
+
+    /* background: linear-gradient(0deg, #CD6F8A 10%, #ED8F38 90%); */
+
 
 
 /* clip-path: polygon(100% 0, 50% 50%, 100% 100%, 0 100%, 0 0); */
