@@ -175,7 +175,7 @@ nav .nav-link:hover {
     padding: 10px;
 }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 375px) {
     
     .bg {
         position: absolute;
@@ -326,7 +326,7 @@ nav .nav-link:hover {
     margin-left: 45%;
 }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 375px) {
     .aboutMe {
         position: relative;
         top: 75%;
