@@ -1,0 +1,150 @@
+@media all and (max-width: 375px) {
+    
+    .bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(#F09A48 5%, #EB9772 20%, #CD6F8A 45%, #593F5F 85%, #3E365B 100%);
+        background-image: linear-gradient(to bottom, #CD6F8A 5%, #F09A48 90%);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 45%, 70% 35%, 38% 30%, 35% 16%, 8% 10%);
+    }
+
+    .imgContainer {
+        border-radius: 50%;
+        position: relative;
+        top: 20%;
+        margin: auto;
+        height: 150px;
+        width: 150px;
+        box-shadow: #0000009a 0px 20px 10px;
+    }
+
+    .imgContainer img {
+        border-radius: 50%;
+        height: 100%;
+    }
+
+    .imgContainer,
+    img:hover {
+        transform: rotate(360deg);
+        transition: 1.5s;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .info {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .info::after {
+        content: '';
+        position: relative;
+        margin-top: 15px;
+        border-radius: 5px;
+        display: block;
+        width: 35%;
+        height: 3px;
+        background: linear-gradient(90deg, #CD6F8A 10%, #ED8F38 90%);
+        top: 85%;
+        left: 34%;
+    }
+
+    .info h2 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-shadow: 0 2px 7px #0000009a;
+    }
+
+    .arrow {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 92%;
+        left: 45%;
+    }
+
+    .skillset {
+        top: 65%;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        justify-content: center;
+        font-size: .6rem;
+    }
+
+    .skillset .pipe {
+        padding: 2px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .aboutMe {
+        position: relative;
+        top: 75%;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .aboutMe .heading {
+        position: relative;
+        background: url("../svgs/mob-AboutBg.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+    }
+
+    .aboutMe .heading h1 {
+        padding-top: 158%;
+        font-size: 1.3rem;
+        text-shadow: #0000009a 10px 5px 10px;
+    }
+
+    .aboutMe .heading h1::after {
+        content: '';
+        display: block;
+        margin: auto;
+        padding: 0;
+        width: 120px;
+        height: 8px;
+        border-radius: 5px;
+        background: linear-gradient(90deg, #8A2BE2 10%, #B181DD 90%);
+
+    }
+
+    .aboutMe .content {
+        position: relative;
+        background: url("../svgs/mob-AboutContent.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .aboutMe .content .bio {
+        position: absolute;
+        padding: 180px 20px 20px 0;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        margin: auto;
+    }
+}

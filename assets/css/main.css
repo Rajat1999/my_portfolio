@@ -1,4 +1,4 @@
-/* ====================<    BASE STYLING     >==================== */
+/* ==============================<    BASE STYLING     >============================== */
 
 *,
 *::before,
@@ -10,12 +10,11 @@
 }
 
 body {
+    justify-content: center;
     background-image: url("../images/bg.png");
     font-size: 20px;
     font-family: 'Livvic',
         sans-serif;
-    margin: 0;
-    padding: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -27,6 +26,7 @@ body {
 
 a {
     text-decoration: none;
+    color: antiquewhite;
 }
 
 .pipe {
@@ -37,14 +37,68 @@ a {
     color: #F09A48;
 }
 
-/* ====================<    LANDING AREA    >==================== */
+.drawing-1 {
+    position: relative;
+    background-image: url("../svgs/Drawing-1.svg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    top: 60%;
+    width: 100%;
+    height: 630px;
+}
+.drawing-2 {
+    position: relative;
+    background-image: url("../svgs/Drawing-2.svg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    top: 40%;
+    width: 100%;
+    height: 630px;
+}
+.drawing-3 {
+    position: relative;
+    background-image: url("../svgs/Drawing-3.svg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -moz-background-size: auto auto;
+    -webkit-background-size: auto auto;
+    -o-background-size: auto auto;
+    background-size: auto auto;
+    top: 20%;
+    width: 100%;
+    height: 630px;
+}
+.drawing-4 {
+    position: relative;
+    background-image: url("../svgs/Drawing-4.svg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    width: 100%;
+    height: 630px;
+}
+
+/* ==============================<    LANDING AREA    >============================== */
 
 .bg {
     position: absolute;
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
     background-image: radial-gradient(#F09A48 5%, #EB9772 20%, #CD6F8A 45%, #593F5F 85%, #3E365B 100%);
     background-repeat: no-repeat;
     background-position: center;
@@ -73,42 +127,29 @@ img:hover {
     transition: 1.5s;
 }
 
-nav {
-    position: relative;
-    width: 50%;
-    top: 40%;
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-}
-
 nav .nav-list {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 60%;
+    margin-left: 90%;
+    position: absolute;
+    text-align: center;
 }
 
-nav .nav-link {
-    float: right;
-    flex-direction: column;
-    color: #f1f1f1;
-    font-size: 1em;
-    line-height: .5rem;
-    padding-bottom: 15px;
+nav .nav-list li {
+    list-style-type: none;
+    transform: rotate(90deg);
+    margin-top: 65%;
 }
 
 nav .nav-link:hover {
     color: blueviolet;
-    transform: scale(1.1);
-    transition: .4s;
+    transition: .5s;
 }
 
 .info {
-    position: absolute;
-    width: 100%;
-    top: 72%;
+    position: relative;
+    width: 60%;
+    top: 40%;
     text-align: center;
     justify-content: center;
     margin: auto;
@@ -134,26 +175,6 @@ nav .nav-link:hover {
     text-shadow: 0 5px 10px #0000009a;
 }
 
-/* .info h2::before {
-    font-family: "Font Awesome 5 Free";
-    content: '\f10d';
-    display: inline-block;
-    position: relative;
-    font-size: 2rem;
-    font-weight: 900;
-    opacity: .5;
-}
-
-.info h2::after {
-    font-family: "Font Awesome 5 Free";
-    content: '\f10e';
-    display: inline-block;
-    position: relative;
-    font-size: 2rem;
-    font-weight: 900;
-    opacity: .5;
-} */
-
 .arrow {
     position: absolute;
     width: 40px;
@@ -163,228 +184,331 @@ nav .nav-link:hover {
 }
 
 .skillset {
-    top: 65%;
+    top: 50%;
     margin: auto;
     text-align: center;
     position: relative;
     justify-content: center;
-    font-weight: 100;
 }
 
 .skillset .pipe {
     padding: 10px;
 }
 
-@media all and (max-width: 375px) {
-    
-    .bg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        background-image: linear-gradient(#F09A48 5%, #EB9772 20%, #CD6F8A 45%, #593F5F 85%, #3E365B 100%);
-        background-image: linear-gradient(to bottom, #CD6F8A 5%, #F09A48 90%);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 45%, 70% 35%, 38% 30%, 35% 16%, 8% 10%);
-    }
+/* ==============================<    ABOUT ME AREA    >============================== */
 
-    .imgContainer {
-        border-radius: 50%;
-        position: relative;
-        top: 20%;
-        margin: auto;
-        height: 150px;
-        width: 150px;
-        box-shadow: #0000009a 0px 20px 10px;
-    }
-
-    .imgContainer img {
-        border-radius: 50%;
-        height: 100%;
-    }
-
-    .imgContainer,
-    img:hover {
-        transform: rotate(360deg);
-        transition: 1.5s;
-    }
-
-    nav {
-        display: none;
-    }
-
-    .info {
-        position: absolute;
-        width: 100%;
-        top: 50%;
-        text-align: center;
-        justify-content: center;
-        margin: auto;
-    }
-
-    .info::after {
-        content: '';
-        position: relative;
-        margin-top: 15px;
-        border-radius: 5px;
-        display: block;
-        width: 35%;
-        height: 3px;
-        background: linear-gradient(90deg, #CD6F8A 10%, #ED8F38 90%);
-        top: 85%;
-        left: 34%;
-    }
-
-    .info h2 {
-        font-size: 1rem;
-        line-height: 1.5rem;
-        text-shadow: 0 2px 7px #0000009a;
-    }
-
-    .arrow {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        top: 92%;
-        left: 45%;
-    }
-
-    .skillset {
-        top: 65%;
-        margin: auto;
-        text-align: center;
-        position: relative;
-        justify-content: center;
-        font-size: .6rem;
-    }
-
-    .skillset .pipe {
-        padding: 2px;
-    }
-}
-
-/* ====================<    ABOUT ME AREA    >==================== */
-
-.aboutMe {
+/* .aboutMe {
     position: relative;
     top: 66%;
     width: 100%;
     justify-content: center;
     text-align: center;
-}
+} */
 
-.aboutMe .heading {
+.about-heading {
     position: relative;
-    background: url("../svgs/AboutBg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 676px;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    top: 50%;
+    height: 20%;
 }
 
-.aboutMe .heading h1 {
-    padding-top: 36%;
-    /* font-weight: 100; */
-    font-size: 5rem;
+.about-heading h1 {
+    font-weight: 100;
+    font-size: 2.8rem;
     text-shadow: #0000009a 10px 5px 10px;
 }
 
-.aboutMe .heading h1::after {
+.about-heading h1::after {
     content: '';
     display: block;
-    margin: auto;
-    padding: 0;
-    width: 500px;
+    width: 105%;
     height: 30px;
     border-radius: 10px;
     background: linear-gradient(90deg, #8A2BE2 10%, #B181DD 90%);
 
 }
 
-.aboutMe .content {
+.aboutMe {
     position: relative;
     background: url("../svgs/section-1.svg");
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    top: 40%;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
-.aboutMe .content .bio {
+.aboutMe .bio {
     position: absolute;
     padding-top: 40px;
     justify-content: left;
     text-align: right;
     width: 50%;
-    height: 100vh;
+    height: 100%;
     font-size: 1.5rem;
     line-height: 3rem;
     margin-left: 45%;
 }
 
-@media all and (max-width: 375px) {
-    .aboutMe {
-        position: relative;
-        top: 75%;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        text-align: center;
-    }
+/* ==============================<    SKILLS & EDUCATION AREA    >============================== */
 
-    .aboutMe .heading {
-        position: relative;
-        background: url("../svgs/mob-AboutBg.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 600px;
-    }
-
-    .aboutMe .heading h1 {
-        padding-top: 158%;
-        font-size: 1.3rem;
-        text-shadow: #0000009a 10px 5px 10px;
-    }
-
-    .aboutMe .heading h1::after {
-        content: '';
-        display: block;
-        margin: auto;
-        padding: 0;
-        width: 120px;
-        height: 8px;
-        border-radius: 5px;
-        background: linear-gradient(90deg, #8A2BE2 10%, #B181DD 90%);
-
-    }
-
-    .aboutMe .content {
-        position: relative;
-        background: url("../svgs/mob-AboutContent.svg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100%;
-    }
-
-    .aboutMe .content .bio {
-        position: absolute;
-        padding: 180px 20px 20px 0;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        font-size: 1.1rem;
-        line-height: 1.5rem;
-        margin: auto;
-    }
+.edu-skills-heading {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    top: 23%;
+    height: 20%;
 }
+
+.edu-skills-heading h1 {
+    font-weight: 100;
+    font-size: 2.8rem;
+    text-shadow: #0000009a 10px 5px 10px;
+}
+
+.edu-skills-heading h1::after {
+    content: '';
+    display: block;
+    width: 105%;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #8A2BE2 10%, #B181DD 90%);
+}
+
+.edu-skills {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    height: 100%;
+    background: #3E365B;
+}
+
+/* ==============================<    PROJECTS AREA    >============================== */
+
+.projects-heading {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    top: 10%;
+    height: 20%;
+}
+
+.projects-heading h1 {
+    font-weight: 100;
+    font-size: 2.8rem;
+    text-shadow: #0000009a 10px 5px 10px;
+}
+
+.projects-heading h1::after {
+    content: '';
+    display: block;
+    width: 105%;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #8A2BE2 10%, #B181DD 90%);
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #3E365B;
+}
+
+/* ==============================<    CARDS    >============================== */
+
+.card {
+    background: #ffffff;
+    align-self: space-around;
+    position: relative;
+    height: 40%;
+    width: 100%;
+    margin: 3% 2.5%;
+    display: flex;
+}
+
+.card:hover {
+    box-shadow: #000000d0 3px 5px 20px;
+    transition: .8s;
+}
+
+.image {
+    /* border: 2px solid red; */
+    position: relative;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+
+}
+
+.image .info {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+
+}
+
+.image .info h1 {
+    text-shadow: #000000d0 10px 5px 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.image .info a img {
+    color: #ffffff;
+    width: 30%;
+    margin: 8%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background: url("../images/typing_keyboard.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: flex-start;
+}
+
+.blur {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 94%;
+    height: 94%;
+    background: #ffffff40;
+
+}
+
+.content {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 100%;
+    padding: 0.8em;
+    color: #1f1f1f;
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+
+.content .tech {
+    padding-bottom: 20px;
+}
+
+.content .tech ul .html::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background: #B1EF91;
+    border-radius: 40px;
+    margin-left: 45px;
+    margin-top: 6px;
+}
+
+.content .tech ul .css::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background: #B1EF91;
+    border-radius: 40px;
+    margin-left: 55px;
+    margin-top: 6px;
+}
+
+.content .tech ul .js::after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    background: #B1EF91;
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.content .tech ul .node::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background: #B1EF91;
+    border-radius: 40px;
+    margin-left: 45px;
+    margin-top: 6px;
+}
+
+.content .tech ul .mongo::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background: #B1EF91;
+    border-radius: 40px;
+    margin-left: 31px;
+    margin-top: 6px;
+}
+
+.content .tech ul .react::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background: #B1EF91;
+    border-radius: 40px;
+    margin-left: 53px;
+    margin-top: 6px;
+}
+
+.content .tech ul .express::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background: #B1EF91;
+    border-radius: 40px;
+    margin-left: 34px;
+    margin-top: 6px;
+}
+
+.content .about {
+    padding-top: 8px;
+}
+
+.content .about h3 {
+    padding-top: 1.2em
+}
+
+.content .about h3::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 6px;
+    background: #FFDC7D;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+/* ==============================<    CARDS    >============================== */
+
+footer {
+    position: relative; 
+    width: 100%;
+    height: 50%;
+    background: #3E365B;
+    display: flex;
+}
+
+
 
 
     /* background: linear-gradient(0deg, #CD6F8A 10%, #ED8F38 90%); */
