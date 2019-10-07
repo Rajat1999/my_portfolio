@@ -1,3 +1,6 @@
+@import "mobile.css";
+@import "card.css";
+
 /* ==============================<    BASE STYLING     >============================== */
 
 *,
@@ -324,179 +327,7 @@ nav .nav-link:hover {
 
 /* ==============================<    CARDS    >============================== */
 
-.card {
-    background: #ffffff;
-    align-self: space-around;
-    position: relative;
-    height: 40%;
-    width: 100%;
-    margin: 3% 2.5%;
-    display: flex;
-}
 
-.card:hover {
-    box-shadow: #000000d0 3px 5px 20px;
-    transition: .8s;
-}
-
-.image {
-    /* border: 2px solid red; */
-    position: relative;
-    justify-content: center;
-    width: 50%;
-    height: 100%;
-
-}
-
-.image .info {
-    position: absolute;
-    text-align: center;
-    top: 20%;
-    left: 20%;
-
-}
-
-.image .info h1 {
-    text-shadow: #000000d0 10px 5px 10px;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.image .info a img {
-    color: #ffffff;
-    width: 30%;
-    margin: 8%;
-}
-
-.img {
-    width: 100%;
-    height: 100%;
-    background: url("../images/typing_keyboard.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-self: flex-start;
-}
-
-.blur {
-    position: absolute;
-    top: 3%;
-    left: 3%;
-    width: 94%;
-    height: 94%;
-    background: #ffffff40;
-
-}
-
-.content {
-    /* border: 2px solid yellow; */
-    width: 50%;
-    height: 100%;
-    padding: 0.8em;
-    color: #1f1f1f;
-    font-size: 0.7rem;
-    line-height: 1rem;
-}
-
-.content .tech {
-    padding-bottom: 20px;
-}
-
-.content .tech ul .html::after {
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 45px;
-    margin-top: 6px;
-}
-
-.content .tech ul .css::after {
-    content: '';
-    position: absolute;
-    width: 80px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 55px;
-    margin-top: 6px;
-}
-
-.content .tech ul .js::after {
-    content: '';
-    position: absolute;
-    width: 70px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 30px;
-    margin-top: 6px;
-}
-
-.content .tech ul .node::after {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 45px;
-    margin-top: 6px;
-}
-
-.content .tech ul .mongo::after {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 31px;
-    margin-top: 6px;
-}
-
-.content .tech ul .react::after {
-    content: '';
-    position: absolute;
-    width: 80px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 53px;
-    margin-top: 6px;
-}
-
-.content .tech ul .express::after {
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 34px;
-    margin-top: 6px;
-}
-
-.content .about {
-    padding-top: 8px;
-}
-
-.content .about h3 {
-    padding-top: 1.2em
-}
-
-.content .about h3::after {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 6px;
-    background: #FFDC7D;
-    border-radius: 40px;
-    margin-left: 15px;
-    margin-top: 7px;
-}
 
 /* ==============================<    CARDS    >============================== */
 
@@ -506,6 +337,19 @@ footer {
     height: 50%;
     background: #3E365B;
     display: flex;
+}
+
+footer .joke {
+    align-self: flex-end;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    padding: 25px;
+    /* top: 25%; */
+    border-radius: 10px;
+    background: #F09A48;
+    position: relative;
+    /* box-shadow: #000000d0 2px 8px 25px; */
 }
 
 
