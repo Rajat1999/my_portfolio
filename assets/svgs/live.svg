@@ -1,6 +1,6 @@
 <svg id="live" xmlns="http://www.w3.org/2000/svg" width="464" height="288" viewBox="0 0 464 288">
-  <path id="Path_250" data-name="Path 250" d="M.07,256.7A32,32,0,0,0,32,288H432a32,32,0,0,0,32-32V35.449Zm0,0" fill="#ff3051"/>
-  <path id="Path_251" data-name="Path 251" d="M464,32A32,32,0,0,0,432,0H32A32,32,0,0,0,0,32V256c0,.238.063.465.07.7L464,35.449Zm0,0" fill="#ff4764"/>
+  <path id="Path_250" data-name="Path 250" d="M.07,256.7A32,32,0,0,0,32,288H432a32,32,0,0,0,32-32V35.449Zm0,0" fill="#8a2be2"/>
+  <path id="Path_251" data-name="Path 251" d="M464,32A32,32,0,0,0,432,0H32A32,32,0,0,0,0,32V256c0,.238.063.465.07.7L464,35.449Zm0,0" fill="#9f59df"/>
   <g id="Group_39" data-name="Group 39">
     <path id="Path_252" data-name="Path 252" d="M128,200H72V80a8,8,0,0,0-16,0V208a8,8,0,0,0,8,8h64a8,8,0,0,0,0-16Zm0,0" fill="#f1f2f2"/>
     <path id="Path_253" data-name="Path 253" d="M400,88a8,8,0,0,0,0-16H336a8,8,0,0,0-8,8V208a8,8,0,0,0,8,8h64a8,8,0,0,0,0-16H344V152h40a8,8,0,0,0,0-16H344V88Zm0,0" fill="#f1f2f2"/>
