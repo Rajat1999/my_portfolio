@@ -25,7 +25,7 @@ body {
     color: whitesmoke;
     width: 100%;
     height: 100vh;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 a {
@@ -57,7 +57,7 @@ a {
     background-size: auto 100%;
     top: 60%;
     width: 100%;
-    height: 630px;
+    height: 50em;
 }
 .drawing-2 {
     position: relative;
@@ -71,7 +71,7 @@ a {
     background-size: auto 100%;
     top: 40%;
     width: 100%;
-    height: 630px;
+    height: 50em;
 }
 .drawing-3 {
     position: relative;
@@ -85,7 +85,7 @@ a {
     background-size: auto 100%;
     top: 20%;
     width: 100%;
-    height: 630px;
+    height: 50em;
 }
 .drawing-4 {
     position: relative;
@@ -98,7 +98,7 @@ a {
     -o-background-size: auto 100%;
     background-size: auto 100%;
     width: 100%;
-    height: 630px;
+    height: 50em;
 }
 
 /* ==============================<    LANDING AREA    >============================== */
@@ -119,8 +119,8 @@ a {
     position: relative;
     top: 30%;
     margin: auto;
-    height: 200px;
-    width: 200px;
+    height: 10em;
+    width: 10em;
     box-shadow: #0000009a 0px 50px 30px;
 }
 
@@ -150,7 +150,7 @@ nav .nav-list li {
 
 nav .nav-link:hover {
     color: blueviolet;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .info {
@@ -165,11 +165,11 @@ nav .nav-link:hover {
 .info::after {
     content: '';
     position: relative;
-    margin-top: 15px;
-    border-radius: 5px;
+    margin-top: 1.1em;
+    border-radius: 1em;
     display: block;
     width: 20%;
-    height: 3px;
+    height: 0.15em;
     background: linear-gradient(90deg, #CD6F8A 10%, #ED8F38 90%);
     left: 40%;
     top: 85%;
@@ -184,8 +184,7 @@ nav .nav-link:hover {
 
 .arrow {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 2em;
     top: 93%;
     left: 5%;
 }
@@ -199,7 +198,7 @@ nav .nav-link:hover {
 }
 
 .skillset .pipe {
-    padding: 10px;
+    padding: 0.4em;
 }
 
 /* ==============================<    ABOUT ME AREA    >============================== */
@@ -231,8 +230,8 @@ nav .nav-link:hover {
     content: '';
     display: block;
     width: 105%;
-    height: 30px;
-    border-radius: 10px;
+    height: 2em;
+    border-radius: 0.5em;
     background: linear-gradient(90deg, #8A2BE2 10%, #B181DD 90%);
 
 }
@@ -250,7 +249,7 @@ nav .nav-link:hover {
 
 .aboutMe .bio {
     position: absolute;
-    padding-top: 40px;
+    padding-top: 2em;
     justify-content: left;
     text-align: right;
     width: 50%;
@@ -281,8 +280,8 @@ nav .nav-link:hover {
     content: '';
     display: block;
     width: 105%;
-    height: 30px;
-    border-radius: 10px;
+    height: 2em;
+    border-radius: 0.5em;
     background: linear-gradient(90deg, #8A2BE2 10%, #B181DD 90%);
 }
 
@@ -318,8 +317,8 @@ nav .nav-link:hover {
     content: '';
     display: block;
     width: 105%;
-    height: 30px;
-    border-radius: 10px;
+    height: 2em;
+    border-radius: 0.5em;
     background: linear-gradient(90deg, #8A2BE2 10%, #B181DD 90%);
 }
 
@@ -379,12 +378,12 @@ footer main .right {
     width: 40%;
     height: 100%;
     background: #B181DD;
-    border-radius: 1000px 0 0 1000px;
+    border-radius: 10em 0 0 10em;
 }
 
 footer main .right img:hover {
     transform: scale(1.2);
-    transition: 0.7s;
+    transition: 0.5s;
 }
 
 footer main .left .joke {
@@ -395,7 +394,7 @@ footer main .left .joke {
     width: 90%;
     height: 100%;
     background: #CD6F8A;
-    border-radius: 0 1000px 1000px 0;
+    border-radius: 0 5em 5em 0;
 }
 
 

@@ -38,13 +38,13 @@
 
 .container .card {
     position: relative;
-    width: 250px;
+    width: 20em;
     background: linear-gradient(0deg, #060510, #2f2e3f, #060510);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    border-radius: 4px;
+    height: 15.1em;
+    border-radius: 0.4em;
     text-align: center;
     overflow: hidden;
     transition: 0.5s;
@@ -67,8 +67,8 @@
 
 .percent {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 7.5em;
+    height: 7.5em;
     border-radius: 50%;
     box-shadow: inset 0 0 50px #000;
     background: #222;
@@ -89,17 +89,17 @@
 .percent .number h2 {
     color: #777;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2em;
     transition: 0.5s;
 }
 
 .card:hover .percent .number h2 {
     color: #fff;
-    font-size: 60px;
+    font-size: 3em;
 }
 
 .percent .number h2 span {
-    font-size: 24px;
+    font-size: 0.6em;
     color: #777;
     transition: 0.5s;
 }
@@ -111,9 +111,9 @@
 .text {
     position: relative;
     color: #777;
-    margin-top: 20px;
+    margin-top: 1em;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 0.9em;
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: 0.5s;
@@ -125,8 +125,8 @@
 
 svg {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 8em;
+    height: 8em;
     z-index: 1000;
 }
 

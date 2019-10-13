@@ -1,7 +1,9 @@
 .card {
     background: linear-gradient(0deg, #060510, #2f2e3f, #060510);
     color: #fff;
-    border-radius: 4px;
+    font-size: 1em;
+    transition: 0.8s;
+    box-shadow: inset 0 0 50px #000;
     align-self: space-around;
     position: relative;
     height: 50%;
@@ -13,14 +15,13 @@
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-    transition: .8s;
+    transition: 0.8s;
 }
 
 .image {
     /* border: 2px solid red; */
     position: relative;
     justify-content: center;
-    border-radius: 4px;
     width: 50%;
     height: 100%;
 
@@ -35,8 +36,8 @@
 
 .image .data h1 {
     text-shadow: #000000d0 10px 5px 10px;
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1.5em;
+    margin: 1em;
 }
 
 .image .data a img {
@@ -47,12 +48,46 @@
 
 .card:hover .image .data a img {
     display: inline-block;
+    transition: 0.8s;
 }
 
 .img {
     width: 100%;
     height: 100%;
     background: url("../images/typing_keyboard.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: flex-start;
+}
+
+.card-3 .img{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background: url("../svgs/DMRC-logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: flex-start;
+}
+
+.card-2 .img{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background: url("../images/global-warming.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: flex-start;
+}
+
+.card-1 .img{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background: url("../images/omdb.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,91 +110,105 @@
     height: 100%;
     padding: 0.8em;
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 0.65em;
     line-height: 1rem;
 }
 
 .content .tech {
-    padding-bottom: 20px;
+    padding-bottom: 1em;
 }
 
-.card:hover .content .tech ul .html::after {
+.content .tech ul .html::after,
+.css::after,
+.js::after,
+.node::after,
+.express::after,
+.php::after {
     content: '';
-    position: absolute;
     transition: 0.8s;
-    width: 50px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 45px;
-    margin-top: 6px;
-}
-
-.card:hover .content .tech ul .css::after {
-    content: '';
     position: absolute;
-    width: 80px;
-    height: 5px;
+    width: 6em;
+    height: 0.3em;
     background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 55px;
-    margin-top: 6px;
+    border-radius: 2em;
+    margin-top: 0.5em;
 }
 
-.card:hover .content .tech ul .js::after {
-    content: '';
-    position: absolute;
-    width: 70px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 30px;
-    margin-top: 6px;
+.card-1 .content .tech ul .html::after,
+.card-3 .content .tech ul .html::after {
+    margin-left: 3.6em;
 }
 
-.card:hover .content .tech ul .node::after {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 45px;
-    margin-top: 6px;
+.card-1 .content .tech ul .css::after,
+.card-3 .content .tech ul .css::after {
+    margin-left: 4.4em;
 }
 
-.card:hover .content .tech ul .mongo::after {
+.card-1 .content .tech ul .js::after,
+.card-3 .content .tech ul .js::after {
+    margin-left: 2.1em;
+}
+
+.card-1 .content .tech ul .html::after {
+    width: 4.5em;
+}
+
+.card-1 .content .tech ul .css::after {
+    width: 4em;
+}
+
+.card-1 .content .tech ul .js::after {
+    width: 5em;
+}
+
+.card-1 .content .tech ul .node::after {
+    margin-left: 3.5em;
+}
+
+.card-1 .content .tech ul .express::after {
+    margin-left: 2.5em;
+    width: 5em;
+}
+
+.card-3 .content .tech ul .html::after {
+    width: 4.5em;
+}
+
+.card-3 .content .tech ul .css::after {
+    width: 5.2em;
+}
+
+.card-3 .content .tech ul .js::after {
+    width: 5em;
+}
+
+.card-3 .content .tech ul .php::after {
+    margin-left: 4.9em;
+}
+
+/* .card:hover .content .tech ul .mongo::after {
     content: '';
     position: absolute;
     width: 40px;
     height: 5px;
     background: #B1EF91;
+    transition: 0.8s;
     border-radius: 40px;
     margin-left: 31px;
     margin-top: 6px;
-}
+} */
 
-.card:hover .content .tech ul .react::after {
+/* .card:hover .content .tech ul .react::after {
     content: '';
     position: absolute;
     width: 80px;
     height: 5px;
     background: #B1EF91;
+    transition: 0.8s;
     border-radius: 40px;
     margin-left: 53px;
     margin-top: 6px;
-}
-
-.card:hover .content .tech ul .express::after {
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 5px;
-    background: #B1EF91;
-    border-radius: 40px;
-    margin-left: 34px;
-    margin-top: 6px;
-}
+} */
 
 .content .about {
     padding-top: 8px;
@@ -169,13 +218,28 @@
     padding-top: 1.2em
 }
 
-.card:hover .content .about h3::after {
+.content .about h3::after {
     content: '';
     position: absolute;
-    width: 100px;
-    height: 6px;
+    transition: 0.8s;
+    width: 6em;
+    height: 0.3em;
     background: #FFDC7D;
-    border-radius: 40px;
-    margin-left: 15px;
-    margin-top: 7px;
+    border-radius: 2em;
+    margin-left: 1em;
+    margin-top: 0.4em;
+}
+
+.moreProjects {
+    display: block;
+    width: 40%;
+    height: 10%;
+    padding-top: 0.6em;
+    border-radius: 2em;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    background: #CD6F8A;
+    top: 80%;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 }
