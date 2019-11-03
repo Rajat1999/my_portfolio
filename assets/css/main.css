@@ -45,9 +45,13 @@ a {
     color: rgb(158, 158, 158);
 }
 
+.hr {
+    display: none;
+}
+ 
 .drawing-1 {
     position: relative;
-    background-image: url("../svgs/Drawing-1.svg");
+    background-image: url("../svgs/BigDrawing-1.svg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -57,11 +61,11 @@ a {
     background-size: auto 100%;
     top: 60%;
     width: 100%;
-    height: 50em;
+    min-height: 50em;
 }
 .drawing-2 {
     position: relative;
-    background-image: url("../svgs/Drawing-2.svg");
+    background-image: url("../svgs/BigDrawing-2.svg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -75,7 +79,7 @@ a {
 }
 .drawing-3 {
     position: relative;
-    background-image: url("../svgs/Drawing-3.svg");
+    background-image: url("../svgs/BigDrawing-3.svg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -89,7 +93,7 @@ a {
 }
 .drawing-4 {
     position: relative;
-    background-image: url("../svgs/Drawing-4.svg");
+    background-image: url("../svgs/BigDrawing-4.svg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -107,12 +111,15 @@ a {
     position: absolute;
     width: 100%;
     height: 100%;
+    opacity: 0.5;
     background-image: radial-gradient(#F09A48 5%, #EB9772 20%, #CD6F8A 45%, #593F5F 85%, #3E365B 100%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 96% 11%, 75% 16%, 67% 39%, 50% 50%, 40% 33%, 12% 20%);
-}
+} 
+
+
 
 .imgContainer {
     border-radius: 50%;
@@ -187,6 +194,7 @@ nav .nav-link:hover {
     width: 2em;
     top: 93%;
     left: 5%;
+    animation: bounce 1s linear 2s infinite alternate;
 }
 
 .skillset {
@@ -381,9 +389,8 @@ footer main .right {
     border-radius: 10em 0 0 10em;
 }
 
-footer main .right img:hover {
-    transform: scale(1.2);
-    transition: 0.5s;
+footer main .right img {
+    animation: pop 1s linear 1s infinite alternate;
 }
 
 footer main .left .joke {
@@ -398,6 +405,18 @@ footer main .left .joke {
 }
 
 
+/* ==============================<    ANIMATIONS    >============================== */
+
+@keyframes bounce {
+    0% {top: 90%}
+    100% {top: 93%}
+}
+
+/* animation for class moreProjects, css on cards.css */
+@keyframes pop {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.02);}
+}
 
 
 

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="667" viewBox="0 0 375 667">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-mob-skillsBg);
+      }
+
+      .cls-2 {
+        fill: #2f2e3f;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-mob-skillsBg">
+      <rect width="375" height="667"/>
+    </clipPath>
+  </defs>
+  <g id="mob-skillsBg" class="cls-1">
+    <rect class="cls-3" width="375" height="667"/>
+    <g id="skillsBg" transform="translate(2 -3396.467)">
+      <rect id="Rectangle_69" data-name="Rectangle 69" class="cls-2" width="375" height="684.467" transform="translate(-2 3391)"/>
+    </g>
+  </g>
+</svg>

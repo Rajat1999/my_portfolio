@@ -118,6 +118,10 @@
     padding-bottom: 1em;
 }
 
+.content .tech ul li {
+    list-style-type: none;
+}
+
 .content .tech ul .html::after,
 .css::after,
 .js::after,
@@ -241,5 +245,6 @@
     text-align: center;
     background: #CD6F8A;
     top: 80%;
+    animation: pop 1s linear 1s infinite alternate;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 }

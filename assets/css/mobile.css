@@ -1,38 +1,37 @@
-@media all and (max-width: 420px) {
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+
+    body {
+        font-size: 15px;
+        background-image: url("../svgs/mobile/mob-bg.svg");
+    }
     
     .bg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        background-image: linear-gradient(#F09A48 5%, #EB9772 20%, #CD6F8A 45%, #593F5F 85%, #3E365B 100%);
-        background-image: linear-gradient(to bottom, #CD6F8A 5%, #F09A48 90%);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 45%, 70% 35%, 38% 30%, 35% 16%, 8% 10%);
     }
 
-    .imgContainer {
-        border-radius: 50%;
+    .drawing-1 {
+        background-image: url("../svgs/mobile/mob-drawing-1.svg");
+    }
+
+    .drawing-2 {
         position: relative;
-        top: 20%;
-        margin: auto;
-        height: 150px;
-        width: 150px;
-        box-shadow: #0000009a 0px 20px 10px;
+        background-image: url("../svgs/mobile/mob-drawing-2.svg");
     }
 
-    .imgContainer img {
-        border-radius: 50%;
-        height: 100%;
+    .drawing-3 {
+        position: relative;
+        background-image: url("../svgs/mobile/mob-drawing-3.svg");
     }
 
-    .imgContainer,
-    img:hover {
-        transform: rotate(360deg);
-        transition: 1.5s;
+    .drawing-4 {
+        position: relative;
+        background-image: url("../svgs/mobile/mob-drawing-4.svg");
+    }
+
+    .imgContainer {
+        top: 18%;
+        height: 8em;
+        width: 8em;
     }
 
     nav {
@@ -43,108 +42,569 @@
         position: absolute;
         width: 100%;
         top: 50%;
-        text-align: center;
-        justify-content: center;
-        margin: auto;
     }
 
-    .info::after {
-        content: '';
-        position: relative;
-        margin-top: 15px;
-        border-radius: 5px;
-        display: block;
-        width: 35%;
-        height: 3px;
-        background: linear-gradient(90deg, #CD6F8A 10%, #ED8F38 90%);
-        top: 85%;
-        left: 34%;
-    }
 
     .info h2 {
         font-size: 1rem;
-        line-height: 1.5rem;
+        line-height: 1.5em;
         text-shadow: 0 2px 7px #0000009a;
     }
 
-    .arrow {
+    /* .arrow {
         position: absolute;
-        width: 20px;
-        height: 20px;
-        top: 92%;
-        left: 45%;
+        width: 2em;
+        top: 93%;
+        left: 5%;
+    } */
+
+    .skillset {
+        top: 55%;
+        font-size: 0.7em;
+    }
+
+    .skillset .pipe {
+        padding: 0.1em;
+    }
+
+    /* ==============================<    ABOUT ME AREA    >============================== */
+
+    .about-heading {
+        width: 50%;
+        top: 55%;
+    }
+
+    .about-heading h1 {
+        font-size: 1.5em;
+    }
+
+    .about-heading h1::after {
+        margin: auto;
+        width: 80%;
+        height: 0.5em;
+
+    }
+
+    .aboutMe {
+
+        background: url("../svgs/mobile/mob-About.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 40%;
+        width: 100%;
+        height: 140%;
+    }
+
+    .aboutMe .bio {
+        /* position: absolute; */
+        text-align: center;
+        width:80%;
+        height: 100%;
+        font-size: 1em;
+        line-height: 1.65em;
+        margin: 80% 10% 0 10%;
+    }
+
+    /* ==============================<    SKILLS & EDUCATION AREA    >============================== */
+
+    .edu-skills-heading {
+        width: 60%;
+        top: 34.5%;
+    }
+
+    .edu-skills-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .edu-skills-heading h1::after {
+        margin: auto;
+        width: 100%;
+        height: 0.5em;
+    }
+
+    .edu-skills {
+        height: 300%;
+        background: url("../svgs/mobile/mob-skillsBg.svg");
+    }
+
+    .edu-skills .edu {
+        margin: 15% auto;
+        width: 100%;
+        height: 20%;
+        display: inline-block;
+    } 
+
+    .edu-skills .edu .place {
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .edu-skills .edu .details {
+        display: inline-block;
+        width: 40%;
+        padding: 1em;
+
+    }
+
+    .hr {
+        display: block;
+        width: 80%;
+        margin: 8% auto;
+    }
+
+    .edu-skills .skill {
+        margin: 20% auto;
+    }
+
+    .edu-skills .skill .container {
+        display: block;
+    }
+
+    .edu-skills .skill .container .card {
+        margin: 10% auto;
+        width: 40%;
+        height: 12em;
+    }
+
+    .container .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .percent {
+        width: 5em;
+        height: 5em;
+    }
+
+    .percent .number h2 {
+        font-weight: 600;
+        font-size: 1.6em;
+    }
+
+    .card:hover .percent .number h2 {
+        font-size: 2em;
+    }
+
+    svg {
+        display: none;
+    }    
+
+    /* ==============================<    PROJECTS AREA    >============================== */
+
+    .projects-heading {
+        width: 20%;
+        top: 15%;
+    }
+
+    .projects-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .projects-heading h1::after {
+        height: 0.5em;
+        width: 125%;
+
+    }
+
+    .projects {
+        display: block;
+        width: 100%;
+        height: 120%;
+    }
+    
+    .card {
+        width: 60%;
+        height: 25%;
+        margin: 2% auto;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card .image {
+        width: 100%;
+    }
+
+    .card .image .data a{
+        display: inline;
+    }
+
+    .card .content {
+        display: none;
+    }
+
+    .moreProjects {
+        width: 90%;
+        height: 6%;
+        margin: 0 5% 0 5%;
+        top: 93%;
+    }
+
+    /* ==============================<    FOOTER    >============================== */
+
+    footer .links {
+        height: 8%;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+
+    footer main {
+        position: relative;
+        justify-content: center;
+        display: block;
+        flex-direction: row;
+        /* float: left; */
+    }
+
+    footer main .left {
+        width: 100%;
+    }
+
+    footer main .right {
+        width: 100%;
+        height: 10%;
+        border-radius: 100px 100px 0 0;
+    }
+
+    footer main .right img {
+        width: 70%;
+    }
+
+    footer main .right img:hover {
+        transform: scale(1.05);
+    }
+
+    footer main .left .joke {
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 2em;
+        background: #CD6F8A;
+        border-radius: 5em ;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 380px) and (max-width: 768px) {
+
+    body {
+        font-size: 18px;
+        background-image: url("../svgs/tab/tab-bg.svg");
+    }
+    
+    .bg {
+        clip-path: polygon(100% 0, 90% 15%, 75% 20%, 65% 35%, 50% 45%, 35% 35%, 25% 20%, 10% 15%, 0 0);
+    }
+
+    .drawing-1 {
+        top: 80%;
+        background-size: cover;
+        background-image: url("../svgs/tab/tab-drawing-1.svg");
+    }
+
+    .drawing-2 {
+        background-size: cover;
+        background-image: url("../svgs/tab/tab-drawing-2.svg");
+    }
+
+    .drawing-3 {
+        background-size: cover;
+        background-image: url("../svgs/tab/tab-drawing-3.svg");
+    }
+
+    .drawing-4 {
+        background-size: cover;
+        background-image: url("../svgs/tab/tab-drawing-4.svg");
+    }
+
+    .imgContainer {
+        top: 30%;
+        height: 9em;
+        width: 9em;
+    }
+
+    nav {
+        display: block;
+        font-size: 0.8em;
+    }
+    nav .nav-list {
+        width: 8%;
+        height: 100%;
+    }
+
+    nav .nav-list li {
+        margin-top: 200%;
+    }
+
+    .info {
+        position: absolute;
+        margin: 0 15% 0 15%;
+        width: 70%;
+        top: 60%;
+    }
+
+
+    .info h2 {
+        font-size: 1rem;
+        line-height: 1.5em;
+        text-shadow: 0 2px 7px #0000009a;
     }
 
     .skillset {
         top: 65%;
-        margin: auto;
-        text-align: center;
-        position: relative;
-        justify-content: center;
-        font-size: .6rem;
+        font-size: 0.7em;
     }
 
     .skillset .pipe {
-        padding: 2px;
+        padding: 0.5em;
     }
-}
 
-@media all and (max-width: 375px) {
+    /* ==============================<    ABOUT ME AREA    >============================== */
+
+    .about-heading {
+        width: 50%;
+        top: 52%;
+    }
+
+    .about-heading h1 {
+        font-size: 2em;
+    }
+
+    .about-heading h1::after {
+        margin: auto;
+        width: 60%;
+        height: 0.5em;
+
+    }
+
     .aboutMe {
-        position: relative;
-        top: 75%;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .aboutMe .heading {
-        position: relative;
-        background: url("../svgs/mob-AboutBg.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
+        background: url("../svgs/tab/tab-About.svg");
         background-position: center;
-        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 40%;
+        width: 100%;
+        height: 140%;
     }
 
-    .aboutMe .heading h1 {
-        padding-top: 158%;
-        font-size: 1.3rem;
-        text-shadow: #0000009a 10px 5px 10px;
+    .aboutMe .bio {
+        /* position: absolute; */
+        text-align: center;
+        width:80%;
+        height: 100%;
+        font-size: 1em;
+        text-align: center;
+        text-justify: inter-word;
+        line-height: 2em;
+        margin: 50% 10% 0 10%;
     }
 
-    .aboutMe .heading h1::after {
-        content: '';
+    /* ==============================<    SKILLS & EDUCATION AREA    >============================== */
+
+    .edu-skills-heading {
+        width: 60%;
+        top: 32.5%;
+    }
+
+    .edu-skills-heading h1 {
+        font-size: 2rem;
+    }
+
+    .edu-skills-heading h1::after {
+        margin: auto;
+        width: 60%;
+        height: 0.5em;
+    }
+
+    .edu-skills {
+        height: 300%;
+        background: url("../svgs/tab/tab-skillsBg.svg");
+    }
+
+    .edu-skills .edu {
+        margin: 5% auto;
+        width: 100%;
+        height: 10%;
+        display: inline-block;
+    } 
+
+    .edu-skills .edu .place {
+        display: inline-block;
+        width: 40%;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .edu-skills .edu .details {
+        display: inline-block;
+        width: 50%;
+        padding: 1em;
+
+    }
+
+    .hr {
+        display: none;
+    }
+
+    .edu-skills .skill {
+        margin: 25% auto;
+    }
+
+    .edu-skills .skill .container {
         display: block;
-        margin: auto;
-        padding: 0;
-        width: 120px;
-        height: 8px;
-        border-radius: 5px;
-        background: linear-gradient(90deg, #8A2BE2 10%, #B181DD 90%);
+    }
+
+    .edu-skills .skill .container .card {
+        margin: 10% auto;
+        width: 12em;
+        height: 13em;
+    }
+
+     .percent .number h2 {
+        font-weight: 600;
+        font-size: 1.6em;
+    } 
+
+    .card:hover .percent .number h2 {
+        font-size: 2.2em;
+    }
+
+    svg {
+        display: none;
+    }    
+
+    /* ==============================<    PROJECTS AREA    >============================== */
+
+    .projects-heading {
+        width: 20%;
+        top: 12.8%;
+    }
+
+    .projects-heading h1 {
+        font-size: 2rem;
+    }
+
+    .projects-heading h1::after {
+        height: 0.5em;
+        width: 100%;
 
     }
 
-    .aboutMe .content {
+    .projects {
+        display: block;
+        width: 100%;
+        height: 130%;
+    }
+    
+    .card {
+        width: 60%;
+        height: 28%;
+        margin: 2% auto;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card .image {
+        width: 50%;
+    }
+
+    .card .image .data a{
+        display: inline;
+    }
+
+    .card .content {
+        display: block;
+    }
+
+    .card .content .tech {
+        display: none;
+    }
+
+    .card .content .about {
+        display: block;
+        width: 100%;
+    }
+
+    .card .content .about .Completed {
+        display: none;
+    }
+
+    .moreProjects {
+        width: 90%;
+        height: 6%;
+        margin: 0 5% 0 5%;
+        top: 93%;
+    }
+
+    /* ==============================<    FOOTER    >============================== */
+
+    footer .links {
+        height: 8%;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+
+    footer main {
         position: relative;
-        background: url("../svgs/mob-AboutContent.svg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100%;
+        justify-content: center;
+        display: block;
+        flex-direction: row;
+        /* float: left; */
     }
 
-    .aboutMe .content .bio {
-        position: absolute;
-        padding: 180px 20px 20px 0;
-        justify-content: center;
-        text-align: center;
+    footer main .left {
         width: 100%;
-        height: 100%;
-        font-size: 1.1rem;
-        line-height: 1.5rem;
-        margin: auto;
+        height: 40%;
+    }
+
+    footer main .right {
+        width: 100%;
+        border-radius: 100px 100px 0 0;
+    }
+
+    footer main .right img {
+        width: 50%;
+    }
+
+    footer main .right img:hover {
+        transform: scale(1.05);
+    }
+
+    footer main .left .joke {
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 2em;
+        background: #CD6F8A;
+        border-radius: 5em ;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* background-image: linear-gradient(#F09A48 5%, #EB9772 20%, #CD6F8A 45%, #593F5F 85%, #3E365B 100%);
+        background-image: linear-gradient(to bottom, #CD6F8A 5%, #F09A48 90%); */

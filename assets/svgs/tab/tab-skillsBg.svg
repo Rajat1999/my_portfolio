@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="1024" viewBox="0 0 768 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-tab-skillsBg);
+      }
+
+      .cls-2 {
+        fill: #2f2e3f;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-tab-skillsBg">
+      <rect width="768" height="1024"/>
+    </clipPath>
+  </defs>
+  <g id="tab-skillsBg" class="cls-1">
+    <rect class="cls-3" width="768" height="1024"/>
+    <g id="skillsBg" transform="translate(2 -3391)">
+      <rect id="Rectangle_69" data-name="Rectangle 69" class="cls-2" width="768" height="1024" transform="translate(-2 3391)"/>
+    </g>
+  </g>
+</svg>

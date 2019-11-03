@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="1024" viewBox="0 0 768 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-tab-bg);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.355" r="0.375" gradientTransform="matrix(1.333, 0, 0, 0.617, -0.167, 0.136)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1f1e2d"/>
+      <stop offset="1" stop-color="#060510"/>
+    </radialGradient>
+    <clipPath id="clip-tab-bg">
+      <rect width="768" height="1024"/>
+    </clipPath>
+  </defs>
+  <g id="tab-bg" class="cls-1">
+    <rect class="cls-3" width="768" height="1024"/>
+    <rect id="mob-bg" class="cls-2" width="768" height="1024"/>
+  </g>
+</svg>
